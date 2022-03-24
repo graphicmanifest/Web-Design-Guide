@@ -1,0 +1,169 @@
+/*NAV SECTION*/
+/*  border: 1px solid red;*/
+* {
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+header {
+  background-color: #17436c;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.title {
+  float: left;
+  padding: 10px 0;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+  }
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav a:hover {
+  color: gold;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  top:0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+  }
+nav a:hover::before {
+  width: 100%;
+}
+
+/*COLORS SECTION*/
+.colors {
+  border: 1px solid black !important;
+  padding:10px;
+  margin: 0 auto;
+  max-width: 780px;
+  overflow: scroll;
+}
+.colors-container {
+  height: 85px;
+  font-weight: 600;
+  display: flex;
+  
+}
+.colors-container ul {
+  display: table;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+
+}
+.colors-container li {
+  display: inline-block;
+  height: 60px;
+  width: 120px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+/*COLOR BACKGROUNDS*/
+
+.color-code1 {
+  background-color: #f7f7f7;
+}
+.color-code2 {
+  background-color: #aeaeae;
+}
+.color-code3 {
+  background-color: #cbdae7;
+}
+.color-code4 {
+  background-color: #17436c;
+}
+.color-code5 {
+  background-color: #faf6ec;
+}
+
+/*FONTS SECTION*/
+.fonts {
+  border: 1px solid black !important;
+  padding:10px;
+  max-width: 780px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+.fonts-container {
+  height: 440px;
+  
+}
+.fonts-container table {
+  margin: 35px auto;
+  justify-content: left;.
+}
+.fonts-container th {
+  text-align: left;
+  text-decoration: underline;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+/*Helvetica*/
+#helvetica {
+  font-family: "Helvetica";
+}
+
+/*Tahoma*/
+#tahoma {
+  font-family: "Tahoma";
+}
+
+/*Courier New*/
+#courier-new {
+  font-family: "Courier New";
+}
+
+/*TEXT STYLES SECTION*/
+.text-styles {
+  border: 1px solid black !important;
+  padding:10px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.text-container {
+width: 350px;
+margin: 0 auto;
+}
